@@ -1,0 +1,44 @@
+<html>
+ <head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <title>Task 2.11</title>
+  <style type="text/css">
+
+  #parent {
+    position: relative;
+    display: flex;
+    background-color: aqua;
+  }
+
+  #inner-left {
+    display: block;
+    max-width: 2000px;
+
+  }
+
+  #inner-right {
+    flex-basis: 250px;
+    flex-grow: 1;
+    background-color: aqua;
+  }
+
+  img {
+    display: block;
+
+    float: right;
+  }
+
+  </style>
+ </head>
+ <body>
+   <div id="parent">
+     <div id="inner-left">
+     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse mollis libero lacinia, dictum nulla quis, lobortis turpis.
+   </div>
+     <div id="inner-right">
+       <img src="image.jpg">
+     </div>
+   </div>
+
+ </body>
+</html>
